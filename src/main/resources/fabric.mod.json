@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "itemstackempty",
+  "version": "${version}",
+  "name": "ItemStackEmpty",
+  "description": "Prevents writing to ItemStack.EMPTY's tag",
+  "authors": [
+    "Bucket of Compasses"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "itemstackempty.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
